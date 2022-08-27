@@ -1,10 +1,10 @@
 # backgammon
 
-Simulate backgammon games
+Simulate backgammon games.
 
 ## Getting started
 
-1. Make sure the current working directory is on the python path.
+1. Configure the development environment
    ```bash
    echo PYTHONPATH=:`pwd` > .env
    ```
