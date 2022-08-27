@@ -6,9 +6,9 @@ from backgammon import Dice
 
 game = Game()
 
-for turn in game.turn():
+for turn in game.iter_turn():
     turn.dice
     turn.player.make_move()
-    print(game.board())
+    print(game.board)
 
 print(game.winner)

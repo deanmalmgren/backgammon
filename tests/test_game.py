@@ -9,7 +9,7 @@ class TestGame(unittest.TestCase):
         game = Game()
         self.assertEqual(game.game_value, 1)
 
-    @params(1, 'a')
+    @params(1, 'a', int, str)
     def test_not_player(self, player1):
         with self.assertRaises(TypeError):
             game = Game(player1)
