@@ -1,0 +1,19 @@
+[[package]]
+name = "nose2"
+version = "0.12.0"
+description = "unittest2 with plugins, the successor to nose"
+category = "dev"
+optional = false
+python-versions = "*"
+
+[package.extras]
+dev = ["sphinx-issues", "mock", "sphinx-rtd-theme", "sphinx"]
+coverage_plugin = ["coverage"]
+
+[metadata]
+lock-version = "1.1"
+python-versions = "^3.9"
+content-hash = "051f9d978a62c896082bd8ba319ab70c5aeb6c1c6f0871753bae5f355a616cd7"
+
+[metadata.files]
+nose2 = []
